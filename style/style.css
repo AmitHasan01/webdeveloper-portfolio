@@ -55,6 +55,7 @@ nav a {
     background-image: url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: bottom right;
+    margin-bottom: 157px;
 }
 
 /* first banner */
@@ -95,6 +96,26 @@ nav a {
 .about {
     padding: 130px;
     background-color: #FFF8F3;
-    border: 2px solid #6565cc;
-    margin: 230px;
+    /* border: 2px solid #6565cc; */
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* about-info-container */
+.about-info-container{
+    display: flex;
+    justify-content: space-between;
+}
+.about-inf{
+    text-align: center;
+
+}
+.info-title{
+    font-weight: 400;
+}
+.inf-description{
+    font-weight: 700;
+
+}
+#what-i-do{
+    padding:30px 280px;
 }
