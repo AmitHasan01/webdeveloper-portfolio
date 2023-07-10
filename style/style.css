@@ -134,18 +134,48 @@ nav a {
 
 .skil {
     padding: 30px;
-
     border-radius: 5px;
     background: #FFF;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+
 }
 
 .skill-dercription {
     color: #757575;
 }
+
 /* resumi section */
-.resumi-colume-titel{
+.resumi-colume-titel {
     color: #474747;
-font-size: 30px;
-font-weight: 700;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.resume-container {
+    display: flex;
+    gap: 50px;
+    margin: 0 230px 0;
+
+}
+
+.resume-descriptioitem {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.resume-item-title {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+}
+.resume-container hr{
+    margin: 30px 0 30px 0;
+}
+.download-cv{
+    text-align: center;
+    margin: 50px;
+
 }
